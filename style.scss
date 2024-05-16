@@ -417,7 +417,7 @@ body{
 
           position: relative;
 
-          p{
+          p{ font-family: Arial, Helvetica, sans-serif;
             padding-top: 80px;
             font-size: 15px;
             width: 80%;
@@ -548,7 +548,7 @@ body{
     }
 
     p{
-        font-family: Arial, Helvetica, sans-serif; font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; font-size: 12px;
         padding-top: 20px; padding-bottom: 50px; width: 70%; line-height: 20px;
     }
 
@@ -734,7 +734,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     
               p{
                 padding-top: 80px;
-                font-size: 15px;
+                font-size: 18px;
                 width: 70%;
                 margin-bottom: 30px;
               }
@@ -772,7 +772,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     p{
-        font-family: Arial, Helvetica, sans-serif; font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif; font-size: 16px;
         padding-top: 20px; padding-bottom: 30px; width: 60%;
     }
 
@@ -899,7 +899,7 @@ footer{ background-color: #1b1919;
     
               p{
                 padding-top: 150px;
-                font-size: 15px;
+                font-size: 20px;
                 width: 60%;
                 margin-bottom: 50px;
               }
@@ -973,8 +973,8 @@ footer{ background-color: #1b1919;
             padding-top: 20px; padding-bottom: 30px;
         }
 
-        .portfolio img{ width: 350px; height: 250px;
-               margin-bottom: 40px;}
+        .portfolio img{ width: 350px; height: 230px;
+               margin-bottom: 40px; object-fit: fill;}
     
     .portfolio{ 
         transition: 2s; }
@@ -983,8 +983,15 @@ footer{ background-color: #1b1919;
                     p{display: contents;}}
 
                     #mande{
-                        height: 40vh;
-                        width: 60vh;
+                        height: 39vh;
+                        width: 50vh;
+                    }
+                    
+                
+
+                    #free{
+                        height: 2%;
+                        width: 100%;
                     }
     
     }
@@ -1000,8 +1007,8 @@ footer{ background-color: #1b1919;
     }
 
     p{
-        font-family: Arial, Helvetica, sans-serif; font-size: 15px;
-        padding-top: 20px; padding-bottom: 30px; width: 70%;
+        font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+        padding-top: 20px; padding-bottom: 80px; width: 70%; line-height: 30px;
     }
 
   

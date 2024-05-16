@@ -395,6 +395,7 @@ body {
   position: relative;
 }
 .aboutt .bout p {
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 80px;
   font-size: 15px;
   width: 80%;
@@ -540,7 +541,7 @@ body {
 }
 .get p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   padding-top: 20px;
   padding-bottom: 50px;
   width: 70%;
@@ -715,7 +716,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .aboutt .bout p {
     padding-top: 80px;
-    font-size: 15px;
+    font-size: 18px;
     width: 70%;
     margin-bottom: 30px;
   }
@@ -752,7 +753,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .get p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     padding-top: 20px;
     padding-bottom: 30px;
     width: 60%;
@@ -874,7 +875,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .aboutt .bout p {
     padding-top: 150px;
-    font-size: 15px;
+    font-size: 20px;
     width: 60%;
     margin-bottom: 50px;
   }
@@ -967,8 +968,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .projects .portfolio img {
     width: 350px;
-    height: 250px;
+    height: 230px;
     margin-bottom: 40px;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .projects .portfolio {
     transition: 2s;
@@ -980,8 +983,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     display: contents;
   }
   .projects #mande {
-    height: 40vh;
-    width: 60vh;
+    height: 39vh;
+    width: 50vh;
+  }
+  .projects #free {
+    height: 2%;
+    width: 100%;
   }
   .get {
     color: white;
@@ -1000,10 +1007,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .get p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     width: 70%;
+    line-height: 30px;
   }
   .get #in {
     background-color: #181818;
